@@ -3,34 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <title>Stylish HTML Website</title>
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Sections */
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
+    <!-- Header -->
     <header>
         <h1>Welcome to My Website</h1>
+        <p>A simple and stylish website using only HTML & internal CSS.</p>
     </header>
 
+    <!-- Navigation Menu -->
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <main>
-        <section>
-            <h2>About This Website</h2>
-            <p>This is a basic HTML template for your project.</p>
-        </section>
-    </main>
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website. We provide the best services to help you grow.</p>
+    </section>
 
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of professionals dedicated to providing the best solutions.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>🌐 Web Development</li>
+            <li>📈 SEO Optimization</li>
+            <li>📢 Marketing Solutions</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: example@example.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 My Website. All rights reserved.</p>
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script> <!-- Link to external JavaScript -->
 </body>
 </html>
